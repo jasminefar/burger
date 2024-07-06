@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.burger {
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bun.top {
+    width: 200px;
+    height: 100px;
+    background-color: #f4a460;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    box-shadow: inset 0 0 0 5px #e59400;
+}
+
+.lettuce {
+    width: 180px;
+    height: 20px;
+    background-color: #8fbc8f;
+    border-radius: 10px;
+    margin: 5px 0;
+    box-shadow: 0 0 0 5px #7ba07b;
+}
+
+.tomato {
+    width: 180px;
+    height: 20px;
+    background-color: #ff6347;
+    border-radius: 10px;
+    margin: 5px 0;
+    box-shadow: 0 0 0 5px #e55347;
+}
+
+.cheese {
+    width: 180px;
+    height: 20px;
+    background-color: #ffa500;
+    border-radius: 10px;
+    margin: 5px 0;
+    box-shadow: 0 0 0 5px #e59400;
+}
+
+.patty {
+    width: 180px;
+    height: 40px;
+    background-color: #8b4513;
+    border-radius: 10px;
+    margin: 5px 0;
+    box-shadow: 0 0 0 5px #733d13;
+}
+
+.bun.bottom {
+    width: 200px;
+    height: 60px;
+    background-color: #f4a460;
+    border-radius: 0 0 50% 50%;
+    position: relative;
+    box-shadow: inset 0 0 0 5px #e59400;
+}
